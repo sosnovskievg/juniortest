@@ -1,0 +1,65 @@
+
+body {
+	height: 100%;
+
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	
+}
+.header{
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 40px;   
+   
+    border-bottom: 3px solid #000000;
+}
+.main {
+    padding-left: 12%;
+    padding-right: 12%;
+    flex: 1 1 auto;
+}
+.footer { 
+        
+    flex: 0 0 auto; 
+    border-top: 3px solid #000000;
+    padding: 5px;
+    text-align: center;
+
+   
+}  
+
+div.product{
+    height: auto;
+    width: 30%;
+    max-width: 30%;
+    border: 3px solid #73AD21;
+    display: inline-block;
+    margin-right: 5%;
+    margin: 10px;
+    text-align: center;
+    padding: 0%;
+    position: relative;
+}
+
+div.add_product{
+    width: 30%;
+}
+.delete-checkbox{
+        position: absolute;
+        left: 0%;
+
+}
+.FUR{
+    display: inline-block;
+
+}
+.add_product{
+    display: inline-block;
+    float:left;
+}
