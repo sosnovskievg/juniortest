@@ -7,8 +7,6 @@ if(isset($_POST["sku"]) && isset($_POST["name"]) && isset($_POST["price"]))
     $name = $_POST["name"];
     $price = $_POST["price"];
     $type= $_POST["productType"];
-    $var1=$_POST["descriptionDVD"];
-    $var2=$_POST["descriptionBook"];
     if ($_POST["descriptionDVD"]!=null)
     {
         $description = $_POST["descriptionDVD"];
